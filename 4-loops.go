@@ -13,6 +13,6 @@ func main() {
   fmt.Println("List of my Todos")
 
   for index, task := range taskItems {
-	  fmt.Printf("%d: %s\n", index+1, task)
+    fmt.Printf("%d: %s\n", index+1, task)
   }
 }
